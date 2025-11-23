@@ -2,11 +2,12 @@
   "name": "energywise-advisor",
   "version": "1.0.0",
   "description": "Smart Energy Cost Calculator and Optimizer - Compare electricity plans, calculate appliance costs, and get personalized energy-saving recommendations",
-  "main": "frontend/index.html",
+  "main": "index.html",
   "scripts": {
-    "start": "python3 -m http.server 8000 --directory frontend",
-    "start-alt": "php -S localhost:8000 -t frontend",
-    "serve": "npx http-server frontend -p 8000 -o"
+    "start": "python3 -m http.server 8000",
+    "start-windows": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o",
+    "start-php": "php -S localhost:8000"
   },
   "keywords": [
     "energy",
@@ -14,7 +15,9 @@
     "calculator",
     "cost-optimizer",
     "renewable-energy",
-    "sustainability"
+    "sustainability",
+    "vanilla-js",
+    "api-integration"
   ],
   "author": "Prince Ndahiro",
   "license": "MIT",
@@ -24,5 +27,8 @@
   },
   "devDependencies": {
     "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
