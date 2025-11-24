@@ -98,22 +98,22 @@ const API = {
 
     // Sample appliances data
     appliances: {
-        refrigerator: { watts: 150, hoursPerDay: 24, },
-        washingMachine: { watts: 500, hoursPerDay: 1, },
-        dryer: { watts: 3000, hoursPerDay: 1, },
-        dishwasher: { watts: 1800, hoursPerDay: 1, },
-        airConditioner: { watts: 3500, hoursPerDay: 8, },
-        heater: { watts: 1500, hoursPerDay: 6, },
-        tv: { watts: 100, hoursPerDay: 5, },
-        computer: { watts: 200, hoursPerDay: 8, },
-        lights: { watts: 60, hoursPerDay: 6,},
-        oven: { watts: 2400, hoursPerDay: 1,},
-        microwave: { watts: 1200, hoursPerDay: 0.5, },
-        waterHeater: { watts: 4000, hoursPerDay: 3, },
-        kettle: { watts: 1500, hoursPerDay: 0.5, },
-        toaster: { watts: 1200, hoursPerDay: 0.2, },
-        vacuum: { watts: 1400, hoursPerDay: 0.5,},
-        fan: { watts: 75, hoursPerDay: 8, }
+        refrigerator: { watts: 150, hoursPerDay: 24, icon: "🧊" },
+        washingMachine: { watts: 500, hoursPerDay: 1, icon: "🧺" },
+        dryer: { watts: 3000, hoursPerDay: 1, icon: "👕" },
+        dishwasher: { watts: 1800, hoursPerDay: 1, icon: "🍽️" },
+        airConditioner: { watts: 3500, hoursPerDay: 8, icon: "❄️" },
+        heater: { watts: 1500, hoursPerDay: 6, icon: "🔥" },
+        tv: { watts: 100, hoursPerDay: 5, icon: "📺" },
+        computer: { watts: 200, hoursPerDay: 8, icon: "💻" },
+        lights: { watts: 60, hoursPerDay: 6, icon: "💡" },
+        oven: { watts: 2400, hoursPerDay: 1, icon: "🍳" },
+        microwave: { watts: 1200, hoursPerDay: 0.5, icon: "🔆" },
+        waterHeater: { watts: 4000, hoursPerDay: 3, icon: "🚿" },
+        kettle: { watts: 1500, hoursPerDay: 0.5, icon: "☕" },
+        toaster: { watts: 1200, hoursPerDay: 0.2, icon: "🍞" },
+        vacuum: { watts: 1400, hoursPerDay: 0.5, icon: "🧹" },
+        fan: { watts: 75, hoursPerDay: 8, icon: "🌀" }
     },
 
     /**
