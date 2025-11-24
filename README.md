@@ -225,11 +225,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Student**: Prince Ndahiro   
 **GitHub**: [prince-nda](https://github.com/prince-nda)
 
----
-
-### GitHub Repository:
-https://github.com/prince-nda/EnergyWiseAdvisor_summative
-
 ### Live Application:
 https://energywiseadvisor.ndahiro.tech
 
