@@ -25,7 +25,6 @@ Thumbs.db
 Desktop.ini
 
 # IDE Files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -45,3 +44,5 @@ temp/
 # Cache
 .cache/
 .parcel-cache/
+temp_auto_push.bat
+temp_interactive_push.bat

@@ -85,10 +85,6 @@ Request 6: X-Served-By: Web01
 - Load balancing with health checks
 - Professional domain with subdomains
 
-### Application Demo:
-
-*https://youtu.be/ye5bao4IiEU*
-
 ## Technical Implementation
 
 ### Frontend Architecture:
@@ -202,6 +198,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 https://energywiseadvisor.ndahiro.tech
 
 ### Demo Video:
-**[INSERT YOUR DEMO VIDEO LINK HERE]**
+**https://youtu.be/ye5bao4IiEU**
 
 *Built with for smarter energy usage and for clean code practices*  
