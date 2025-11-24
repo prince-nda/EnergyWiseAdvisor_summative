@@ -87,6 +87,7 @@ Request 6: X-Served-By: Web01
 
 ### Application Demo:
 
+*https://youtu.be/ye5bao4IiEU*
 
 ## Technical Implementation
 
@@ -109,7 +110,7 @@ EnergyWiseAdvisor/
 │   ├── ui.js           # User interface handlers
 │   └── config.js       # API configuration
 ├── data/
-│   └── appliances.json # Appliance database
+│   └── package.json 
 └── README.md           # This file
 ```
 
@@ -163,19 +164,6 @@ server {
 }
 ```
 
-## Assignment Requirements Checklist
-
- **Meaningful Purpose** - Actually helps save real money on electricity bills  
- **Multiple Real APIs** - 3 different APIs integrated successfully  
- **User Interaction** - Filtering, sorting, searching, calculations, form inputs  
- **Error Handling** - Graceful API failure handling with fallback data  
- **Clean Code** - Modular architecture, proper comments, readable code  
- **No Sensitive Data** - API keys protected with .gitignore  
- **Good Documentation** - Comprehensive README with setup instructions  
- **Deployment** - 3-server setup with load balancing and SSL  
- **Professional Domain** - Custom subdomains with HTTPS  
-
-
 ## Performance Metrics
 
 - **Page Load Time**: < 2 seconds
@@ -184,13 +172,6 @@ server {
 - **Concurrent Users**: Supports multiple simultaneous users
 - **Mobile Performance**: Optimized for all device sizes
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## Troubleshooting
 
@@ -207,14 +188,6 @@ server {
 **Load balancing not working?**
 - Check health endpoints: `/health` on each server
 - Verify upstream configuration
-
-## Acknowledgments
-
-### APIs & Data Sources:
-- **OpenWeatherMap** - Real-time weather data
-- **U.S. EIA** - Government energy pricing data
-- **UK Carbon Intensity** - Environmental impact data
-
   
 ## License
 
